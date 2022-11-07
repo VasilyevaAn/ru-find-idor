@@ -4,7 +4,7 @@
 
 IDOR (Insecure direct object references), что переводится как небезопасная прямая ссылка на объект. Уязвимость со стороны бэкенда: возможность манипулировать сущностями.
 
-# Приемы - не все существующие, а что работает у меня
+# Приемы - не все существующие, а что работает у меня)
 
 * Если есть несколько параметров, то проверить для каждого из них. Например, удаление файла из сделки осуществляется по deal_id, phone, file_id. Добавив deal_id, phone своей сделки, а file_id чужой, можно удалить чужой файл
 ```
@@ -57,3 +57,7 @@ application/xml -> application/json
 * **[OWASP Juice Shop](https://github.com/juice-shop/juice-shop)**
 * **[web security academy](https://portswigger.net/web-security)**
 * На своем рабочем проекте)
+
+# Полезные ссылки
+
+* **[Finding More IDORs – Tips And Tricks](https://www.aon.com/cyber-solutions/aon_cyber_labs/finding-more-idors-tips-and-tricks/)**

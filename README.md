@@ -27,7 +27,7 @@ Content-Type: application/json-patch+json
 A BSON ObjectID is a 12-byte value consisting of a 4-byte timestamp (seconds since epoch), a 3-byte machine id, a 2-byte process id, and a 3-byte counter
 ``` 
 * Самые интересные IDOR находятся не в одном методе, а в сценарии. **[Account takeover in cups.mail.ru](https://medium.com/kminthein/account-takeover-in-cups-mail-ru-bdab1483f92c)**
-* Попробовать изменить Content-type
+* Попробуйте изменить Content-type
 ``` 
 application/xml -> application/json
 ``` 
